@@ -20,4 +20,3 @@ This is a React project using Next.js.
 
    Navigate to [http://localhost:3000](http://localhost:3000) to see the result.
 
-# furry-frontend
