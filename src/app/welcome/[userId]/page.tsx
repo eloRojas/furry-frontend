@@ -14,7 +14,7 @@ async function fetchDeliveryData(
 ): Promise<DeliveryNotification | null> {
   try {
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL}/comms/your-next-delivery/${userId}`,
+      `http://localhost:3001/comms/your-next-delivery/${userId}`,
     );
 
     if (!res.ok) {
